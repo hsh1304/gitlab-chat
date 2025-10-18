@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; margin: 0; background:#f3f4f6; }
+.app { max-width: 900px; margin: 20px auto; padding: 12px; }
+.header { display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; }
+.chat-window { min-height: 400px; border-radius:8px; padding:12px; background:white; box-shadow:0 1px 4px rgba(0,0,0,0.06); overflow:auto; }
+.bubble { margin:8px 0; padding:12px; border-radius:8px; max-width:80%; }
+.user { background:#e6f7ff; align-self:flex-end; margin-left:auto; }
+.assistant { background:#f1f1f1; align-self:flex-start; margin-right:auto; }
+.composer { display:flex; gap:8px; margin-top:12px; }
+.composer textarea { flex:1; height:72px; padding:8px; border-radius:6px; border:1px solid #ddd; resize:vertical; }
+.composer button { padding:8px 14px; border-radius:6px; border:none; background:#0b5cff; color:white; cursor:pointer; }
+.llm-toggle { font-size:13px; }
